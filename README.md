@@ -49,7 +49,7 @@ class _BasvuruFormuState extends State<BasvuruFormu> {
     );
   }
 
-  // ✅ TYPE FIX (object hatasını çözen kısım)
+  // TYPE FIX (object hatasını çözen kısım)
   Widget drop<T>(String label, T? value, List<T> items, ValueChanged<T?> onChg) {
     return DropdownButtonFormField<T>(
       value: value,
